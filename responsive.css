@@ -1,0 +1,551 @@
+/* 
+//  Desktop
+//  ___________________________________________ */
+
+
+
+@media screen and (min-width: 1171px) {
+    nav {
+        padding: 0 50px;
+        justify-content: space-between;
+    }
+
+    .top-container {
+        gap: 180px;
+    }
+
+    .top-info {
+        width: 43%;
+    }
+
+    .top-info h1 {
+        font-size: 5.5rem;
+    }
+
+
+    .top-info p {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .img-cute {
+        width: 56%;
+    }
+
+    .photo-dog-info p {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+
+    .photo-dog-info h1 {
+        font-size: 2.2rem;
+    }
+
+    .new-home h1 {
+        font-size: 3.2rem;
+    }
+
+    .btn {
+        padding: 1rem 3rem;
+    }
+
+    .img-family {
+        width: 80%;
+    }
+
+    .adopted p {
+        font-size: 1.5rem;
+    }
+
+    .photo-png p {
+        font-size: 1.3rem;
+    }
+
+    .others {
+        padding: 1.5rem 3rem;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1170px) {
+
+    .top-info h1 {
+        font-size: 4.5rem;
+    }
+
+    .top-info p {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .btn {
+        padding: 1rem 3rem;
+    }
+
+    .section-family {
+        display: block;
+    }
+
+    .img-cute {
+        width: 55%;
+        justify-self: end;
+    }
+
+    .img-family {
+        width: 60%;
+    }
+
+    .photo-dog {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .photo-dog-info {
+        width: 75%;
+    }
+
+
+    .new-home h1 {
+        padding-top: 8rem;
+        text-align: center;
+    }
+
+    .new-home {
+        display: grid;
+        justify-items: center;
+    }
+
+    .btn-others {
+        padding-top: 5rem;
+    }
+
+    .others {
+        padding: 1.5rem 3rem;
+    }
+
+
+    .adopted p {
+        font-size: 1.4rem;
+    }
+
+    .photo-png p {
+        font-size: 1.2rem;
+    }
+
+
+    .more {
+        margin-bottom: 13rem;
+    }
+
+}
+
+
+
+
+
+/* 
+//  TABLET
+//  ___________________________________________ */
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .map iframe{
+        width: 81%!important;
+    }
+
+    .top-info p {
+        font-size: 1.5rem;
+    }
+
+    .top-info h1 {
+        font-size: 3.5rem;
+    }
+
+    .img-dog {
+        width: 30%;
+    }
+
+    .top-info {
+        width: 38%;
+    }
+
+    .top-container {
+        justify-content: center;
+    }
+
+    .img-cute {
+        width: 62%;
+    }
+
+    .photo-dog-info p {
+        font-size: 1.5rem;
+    }
+
+    .photo-dog-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .photo-dog-info {
+        width: 75%;
+    }
+
+    .nav-active {
+        height: 30vh;
+        width: 30%;
+    }
+
+    .nav-links a {
+        color: #fff;
+    }
+
+
+    .adopted p {
+        font-size: 1.5rem;
+    }
+
+    .img-adopted {
+        width: 50%;
+    }
+
+    .photo-png p {
+        font-size: 1.5rem;
+    }
+
+    .another-btn {
+        font-size: 2rem;
+        padding: 0.8rem 3rem;
+    }
+
+    .main-block h1 {
+        font-size: 3.5rem;
+    }
+
+    input,
+    select {
+        font-size: 1.7rem;
+    }
+
+    .box-contact p,
+    .box-about p,
+    .box-program p {
+        font-size: 1.5rem;
+    }
+
+    .box-contact h2,
+    .box-about h2,
+    .box-program h2 {
+        padding: 1rem 0 1rem 0;
+        font-size: 2.5rem;
+    }
+
+    .box-contact h3,
+    .box-about h3,
+    .box-program h3 {
+        font-size: 1.9rem;
+    }
+}
+
+
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+/* 
+//  Mobile
+//  ___________________________________________ */
+
+@media screen and (max-width: 1024px) {
+
+    /* TOP */
+
+    nav {
+        justify-content: space-between;
+
+    }
+
+    .logo-container .logo {
+
+        width: 60%;
+
+    }
+
+    .top-container {
+        justify-content: flex-end;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .nav-links a {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .nav-active {
+        position: absolute;
+        right: 0px;
+        height: 30vh;
+        top: 8vh;
+        background-color: #497A00;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+
+    .burger {
+        display: block;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+    .top-info {
+        width: 50%;
+    }
+
+    .top-info h1 {
+        font-size: 2.3rem;
+    }
+
+    .top-info p {
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        padding: 1.2rem 2.2rem;
+        font-size: 1.7rem;
+    }
+
+    .img-dog {
+        width: 47%;
+    }
+
+
+    /* Middle */
+
+
+    .section-family {
+        display: block;
+    }
+
+    .img-cute {
+        width: 95%;
+    }
+
+    .img-family {
+        width: 90%;
+    }
+
+    .photo-dog {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .photo-dog-info h1 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .photo-dog-info p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .new-home h1 {
+        padding-top: 8rem;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+
+    .new-home {
+        display: grid;
+        justify-items: center;
+    }
+
+    .btn-others {
+        padding-top: 5rem;
+    }
+
+    .others {
+        padding: 1.2rem 2.2rem;
+        font-size: 1.7rem;
+    }
+
+    .adopted {
+        width: 90%;
+    }
+
+    .adopted h1 {
+        font-size: 3rem;
+    }
+
+    .img-adopted {
+        width: 75%;
+    }
+
+    .adopted p {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+
+    .info-png h1 {
+        font-size: 2.5rem;
+        padding: 6rem 2rem;
+    }
+
+    .photo-png {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .photo1,
+    .photo2,
+    .photo3 {
+        justify-self: center;
+        margin-bottom: 2rem;
+        width: 75%;
+    }
+
+    .png1 {
+        width: 55%;
+    }
+
+    .photo-png p {
+        font-size: 1.3rem;
+    }
+
+    .more {
+        margin-bottom: 7rem;
+    }
+
+    .another-btn {
+        font-size: 1.5rem;
+        padding: 0.8rem 3rem;
+    }
+
+    /* Bot */
+
+
+    .dog-img {
+        width: 100%;
+    }
+
+
+    .main-block {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+
+    .main-block h1 {
+        font-size: 2.5rem;
+    }
+
+    form {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .map{
+        padding-top: 45px;
+        width: 100%;
+    }
+   .map iframe {
+        width: 80%;
+        height: 40vh;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    input,
+    select {
+        font-size: 1.2rem;
+    }
+
+
+
+    /* Footer */
+
+    .info-contact {
+        background: #f4f4f4;
+        padding-bottom: 15px;
+    }
+
+    .footer {
+        font-size: 1rem;
+        padding: 15px 0 0 10px;
+        grid-template-columns: 100%;
+
+    }
+
+    .box-contact,
+    .box-about,
+    .box-program {
+        font-family: "Signika", sans-serif;
+        font-size: 17px;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .box-contact h2,
+    .box-about h2,
+    .box-program h2 {
+        margin-bottom: 10px;
+    }
+    .box-about {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .box-about a {
+        display: block;
+        text-align: center;
+        padding-bottom: 0.7rem;
+    }
+    .privacy-h2 {
+        text-align: right;
+    }
+
+    .absolute-footer {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+}
